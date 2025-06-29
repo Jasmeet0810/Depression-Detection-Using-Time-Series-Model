@@ -7,10 +7,12 @@ This project presents a comparative study of three deep learning architectures �
 ## 🧠 Project Overview
 
 - **Objective**: Develop and compare deep learning models for classifying depression using EEG time-series data.
+  
 - **Models Implemented**:
   - Long Short-Term Memory (**LSTM**)
   - Convolutional Neural Network + LSTM (**CNN-LSTM**)
   - Transformer with Self-Attention (**Transformer**)
+    
 - **Noise Handling**:
   - Variance-based feature filtering
   - Gaussian noise-based perturbation
@@ -27,23 +29,6 @@ This project presents a comparative study of three deep learning architectures �
   - Standard normalization and feature selection
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-git clone https://github.com/yourusername/eeg-depression-detection.git
-cd eeg-depression-detection
-
-2. Install Dependencies
-Create a virtual environment (optional but recommended), then install packages:
-pip install -r requirements.txt
-
-3. Run Notebooks
-Open each notebook in Jupyter or Google Colab:
-LSTM_MODEL.ipynb
-CNN_LSTM_MODEL.ipynb
-TRANSFORMER_MODEL.ipynb
-Follow the instructions in each notebook to train and evaluate models.
 
 📈 Model Performance Summary
 Model	    Accuracy (Clean)	Accuracy (Noisy)
@@ -63,13 +48,3 @@ Add a real-time EEG processing pipeline
 Integrate additional physiological signals (HRV, GSR)
 Improve cross-subject generalization
 Deploy models on edge devices or wearables
-
-📬 Contact
-For questions or collaboration inquiries, feel free to contact the repository maintainer.
-
-Let me know if you'd like:
-- A `requirements.txt` generated for the code
-- A badge section (like Python version, Colab badge, etc.)
-- A license section
-
-I'm happy to help you polish it for upload.
